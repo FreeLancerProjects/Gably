@@ -37,7 +37,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="17sp"
                         android:text="@string/edit_profile"
                         android:layout_marginBottom="10dp"
@@ -50,7 +50,7 @@
                         app:civ_border_color="@color/white"
                         android:layout_marginTop="20dp"
                         android:layout_gravity="center_horizontal"
-                        android:src="@drawable/logo_only"
+                        android:src="@drawable/logo"
                         app:civ_fill_color="@color/white"
                         />
                     <com.iarcuschin.simpleratingbar.SimpleRatingBar
@@ -106,7 +106,7 @@
                             android:layout_gravity="center_vertical"
                             android:padding="5dp"
                             android:src="@drawable/ic_left_arrow"
-                            android:tint="@color/black"
+                            android:tint="@color/white"
                             android:clickable="false"
                             android:longClickable="false"
                             />
@@ -117,7 +117,7 @@
                             android:layout_gravity="center_vertical"
                             android:paddingStart="5dp"
                             android:text="@string/back"
-                            android:textColor="@color/black"
+                            android:textColor="@color/white"
                             android:textSize="16sp"
                             tools:ignore="RtlCompat"
                             android:clickable="false"

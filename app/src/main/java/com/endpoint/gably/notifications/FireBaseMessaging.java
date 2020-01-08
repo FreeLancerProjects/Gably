@@ -16,6 +16,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
+import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
 import com.endpoint.gably.R;
@@ -44,6 +45,7 @@ import java.util.Random;
 public class FireBaseMessaging extends FirebaseMessagingService {
     Preferences preferences = Preferences.getInstance();
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
@@ -65,6 +67,7 @@ public class FireBaseMessaging extends FirebaseMessagingService {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     private void ManageNotification(Map<String, String> map) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
 
@@ -75,7 +78,7 @@ public class FireBaseMessaging extends FirebaseMessagingService {
         }
     }
 
-    @TargetApi(Build.VERSION_CODES.O)
+    @androidx.annotation.RequiresApi(api = Build.VERSION_CODES.Q)
     private void createNewVersionNotification(final Map<String, String> map) {
 
         String sound_Path = "android.resource://" + getPackageName() + "/" + R.raw.not;
@@ -521,6 +524,7 @@ public class FireBaseMessaging extends FirebaseMessagingService {
 
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     private void createOldVersionNotification(final Map<String, String> map) {
 
         String sound_Path = "android.resource://" + getPackageName() + "/" + R.raw.not;

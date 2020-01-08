@@ -110,7 +110,7 @@
                             android:padding="15dp"
                             android:src="@drawable/ic_correct"
 
-                            android:tint="@color/black"
+                            android:tint="@color/white"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
@@ -130,7 +130,7 @@
                                 android:layout_height="48dp"
                                 android:padding="15dp"
                                 android:src="@drawable/ic_left_arrow"
-                                android:tint="@color/black"
+                                android:tint="@color/white"
                                  />
 
                             <TextView
@@ -139,7 +139,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_marginEnd="5dp"
                                 android:text="@string/order_now"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textSize="14sp"
                                 tools:ignore="RtlCompat" />
                         </LinearLayout>

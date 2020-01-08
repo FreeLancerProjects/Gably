@@ -34,14 +34,14 @@
                     android:layout_width="45dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_left_arrow"
-                    android:tint="@color/black"
+                    android:tint="@color/white"
                     android:padding="13dp"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="14sp"
                     android:text="@string/back"
                     />
@@ -54,7 +54,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintHorizontal_bias=".4"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 android:text="@string/couriers"
 

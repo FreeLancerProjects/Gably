@@ -40,7 +40,7 @@
                         android:layout_height="match_parent"
                         android:src="@drawable/ic_left_arrow"
                         android:padding="12dp"
-                        android:tint="@color/black"
+                        android:tint="@color/white"
                         app:layout_constraintStart_toStartOf="parent"
                         android:clickable="false"
                         android:longClickable="false"
@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8sp"
                         tools:ignore="RtlCompat"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="15sp"
                         android:text="title Ar"
                         app:layout_constraintStart_toEndOf="@id/arrow"
@@ -87,11 +87,11 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:tabMaxWidth="0dp"
                 app:tabGravity="fill"
-                app:tabSelectedTextColor="@color/black"
-                app:tabTextColor="@color/black"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextColor="@color/white"
                 app:tabMode="fixed"
                 app:tabIndicatorHeight="2dp"
-                app:tabIndicatorColor="@color/black"
+                app:tabIndicatorColor="@color/white"
                 >
 
             </com.google.android.material.tabs.TabLayout>

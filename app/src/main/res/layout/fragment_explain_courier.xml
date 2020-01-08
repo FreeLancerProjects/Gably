@@ -28,7 +28,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/ic_left_arrow"
                 android:padding="10dp"
-                android:tint="@color/black"
+                android:tint="@color/white"
                 android:clickable="false"
                 android:longClickable="false"
                 />
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/back"
                 android:textSize="15sp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:layout_gravity="center_vertical"
                 android:clickable="false"
                 android:longClickable="false"

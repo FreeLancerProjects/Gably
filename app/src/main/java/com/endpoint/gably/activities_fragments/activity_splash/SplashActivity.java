@@ -39,7 +39,7 @@ public class SplashActivity extends AppCompatActivity {
         preferences = Preferences.getInstance();
         cov = findViewById(R.id.img_cov);
 
-        Animation animation = AnimationUtils.loadAnimation(this, R.anim.fade);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.move);
         final Animation animation1 = AnimationUtils.loadAnimation(this, R.anim.fade);
 
         cov.startAnimation(animation);

@@ -30,7 +30,7 @@
             <ImageView
                 android:layout_width="190dp"
                 android:layout_height="170dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/logowhite" />
 
             <LinearLayout
                 android:id="@+id/ll_phone_sign_up"
@@ -118,7 +118,7 @@
                     android:layout_height="25dp"
                     android:autoLink="web"
                     android:text="@string/terms_and_conditions"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="13sp"
                     android:gravity="center"
 

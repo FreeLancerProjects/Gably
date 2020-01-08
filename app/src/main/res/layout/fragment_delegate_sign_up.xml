@@ -333,8 +333,8 @@
                             <co.ceryle.segmentedbutton.SegmentedButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                app:sb_textColor="@color/black"
-                                app:sb_textColor_onSelection="@color/black"
+                                app:sb_textColor="@color/white"
+                                app:sb_textColor_onSelection="@color/white"
                                 app:sb_textSize="15sp"
                                 app:sb_text="@string/male"
                                 app:sb_textFillSpace="true"
