@@ -18,9 +18,9 @@
     <color name="gray6">#212121</color>
     <color name="gray7">#757575</color>
     <color name="active">#43A047</color>
-    <color name="distance">#791576</color>
-    <color name="rating">#791576</color>
-    <color name="press_color">#fdee00</color>
+    <color name="distance">#FFFF00</color>
+    <color name="rating">#FBC02D</color>
+    <color name="press_color">#383E99</color>
     <color name="gradient_start_color">#7ec242</color>
     <color name="gradient_center_color">#a0cc36</color>
     <color name="gradient_end_color">#e7e01c</color>
