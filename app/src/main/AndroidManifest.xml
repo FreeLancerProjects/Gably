@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.endpoint.gably">
+    package="com.endpoint.giveme">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -15,7 +15,7 @@
         tools:ignore="ProtectedPermissions" />
 
     <application
-        android:name=".share.App"
+        android:name="com.endpoint.giveme.share.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -25,11 +25,11 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
-        <activity android:name=".activities_fragments.activity_reviews.ReviewsActivity"
+        <activity android:name="com.endpoint.giveme.activities_fragments.activity_reviews.ReviewsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".activities_fragments.bill_activity.BillActivity"
+        <activity android:name="com.endpoint.giveme.activities_fragments.bill_activity.BillActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait"
             />
@@ -39,13 +39,13 @@
             android:required="false" />
 
         <service
-            android:name=".notifications.FireBaseMessaging"
+            android:name="com.endpoint.giveme.notifications.FireBaseMessaging"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".services.UpdateLocationService" />
+        <service android:name="com.endpoint.giveme.services.UpdateLocationService" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -55,7 +55,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".activities_fragments.activity_splash.SplashActivity"
+            android:name="com.endpoint.giveme.activities_fragments.activity_splash.SplashActivity"
             android:configChanges="orientation|screenSize|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,21 +64,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities_fragments.activity_sign_in.activity.SignInActivity"
+            android:name="com.endpoint.giveme.activities_fragments.activity_sign_in.activity.SignInActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
         <activity
-            android:name=".activities_fragments.terms_conditions.TermsConditionsActivity"
+            android:name="com.endpoint.giveme.activities_fragments.terms_conditions.TermsConditionsActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities_fragments.activity_home.client_home.activity.ClientHomeActivity"
+            android:name="com.endpoint.giveme.activities_fragments.activity_home.client_home.activity.ClientHomeActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:taskAffinity="" />
         <activity
-            android:name=".activities_fragments.activity_chat.ChatActivity"
+            android:name="com.endpoint.giveme.activities_fragments.activity_chat.ChatActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"

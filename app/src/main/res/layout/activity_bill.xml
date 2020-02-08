@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities_fragments.bill_activity.BillActivity"
+    tools:context="com.endpoint.giveme.activities_fragments.bill_activity.BillActivity"
     android:background="@color/black"
     >
     <ImageView
